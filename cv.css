@@ -162,7 +162,7 @@ a {
   font-size: 13px;
   color: #3f3e3d;
 }
-.content .exp .row > :first-child {
+.content .exp .row > :first-child:not(:only-child) {
   margin-right: 20px;
 }
 
